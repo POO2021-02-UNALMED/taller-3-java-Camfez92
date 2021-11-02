@@ -12,6 +12,7 @@ public class TV {
 	public TV(Marca marca, boolean estado) {
 		this.marca=marca;
 		this.estado=estado;
+		numTV++;
 		
 	}
 	
@@ -56,11 +57,11 @@ public class TV {
 	public int getCanal() {
 		return this.canal;
 }
-	public void turnon() {
+	public void turnOn() {
 		this.estado=true;
 	}
 	
-	public void turnoff() {
+	public void turnOff() {
 		this.estado=false;
 	}
 	
@@ -98,5 +99,13 @@ public class TV {
 				volumen--;
 			}
 		}
+	}
+	
+	public void setNumTV(int numTV) {
+		TV.numTV=numTV;
+	}
+	
+	public int getNumTV() {
+		return numTV;
 	}
 }
