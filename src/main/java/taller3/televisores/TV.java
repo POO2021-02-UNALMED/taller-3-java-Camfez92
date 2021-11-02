@@ -101,11 +101,11 @@ public class TV {
 		}
 	}
 	
-	public void setNumTV(int numTV) {
+	public static void setNumTV(int numTV) {
 		
 	}
 	
-	public int getNumTV() {
+	public static int getNumTV() {
 		return numTV;
 	}
 }
