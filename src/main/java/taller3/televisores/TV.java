@@ -102,7 +102,7 @@ public class TV {
 	}
 	
 	public void setNumTV(int numTV) {
-		TV.numTV=numTV;
+		
 	}
 	
 	public int getNumTV() {
